@@ -1,0 +1,10 @@
+#!name=荐片广告屏蔽
+#!desc=屏蔽荐片广告请求
+#!author=TG：https://t.me/Aa28413761
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
+
+[Rewrite]
+^https:\/\/h5v2\.cibnabg\.com\/api\/advertise\/list - reject
+
+[MITM]
+hostname = h5v2.cibnabg.com
